@@ -1,3 +1,4 @@
+
 // const input = document.querySelector("#input");
 // const button = document.querySelector("#submit");
 // let listItem = document.createElement("li");
@@ -29,6 +30,10 @@ const button = document.querySelector("#submit");
 const button2 = document.querySelector("#remove");
 let listItem = document.createElement("li");
 // let lastItem = document.querySelector("li:last-child");
+const input = document.querySelector("#input");
+const button = document.querySelector("#submit");
+let listItem = document.createElement("li");
+
 let list = document.querySelectorAll("ul")[0];
 
 button.addEventListener("click", () => {
@@ -42,3 +47,5 @@ button2.addEventListener("click", () => {
     list.removeChild(lastItem);
     //list.removeChild(document.querySelector("li:last-child") - remove variable - same outcome
 });
+
+
