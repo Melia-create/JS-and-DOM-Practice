@@ -8,5 +8,6 @@ mySubmit.addEventListener("click", () => {
     placeHolder.textContent = input.value;
     // placeHolder.textContent = `<li>${input.value}</li>`;
 
-    myList.innerHTML = `<li> ${input.value} </li>`;
+    myList.innerHTML = `<li> ${input.value} </li>`; 
+    //Replaces ALL list content in HTML
 });
